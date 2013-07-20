@@ -12,5 +12,7 @@ type server struct{}
 func (server) Name() string { return "server" }
 
 func (cmd server) Run() {
+	// routing
+	// http listen and serve
 	log.Println(cmd.Name())
 }

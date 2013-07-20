@@ -2,7 +2,9 @@ package main
 
 import (
 	"github.com/levicook/herbie/commands"
+
 	_ "github.com/levicook/herbie/commands/server"
+
 	"os"
 )
 
